@@ -1,0 +1,6 @@
+{
+    "name": "ParticleSwarm",
+    "type": "invisible",
+    "description": "Orchestrates the particle swarm optimization (PSO), but isn't rendered",  
+    "controller": "lib/particleswarm.so"
+}

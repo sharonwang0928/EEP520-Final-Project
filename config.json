@@ -1,0 +1,71 @@
+{
+
+    "name": "Particle Swarm Optimization Project",
+    "ip": "0.0.0.0",
+    "port": 8765,
+    "buttons": [],
+
+    "agents": [
+        {
+            "definition": "defs/message.json",
+            "style": { "fill": "pink", "stroke": "black" },
+            "position": { "x": -300, "y": -230, "theta": 0 }
+        }
+    ],
+
+    "references": [
+        {
+            "definition": "defs/particle.json",
+            "style": { "fill": "azure", "stroke": "black" },
+            "position": { "x": 0, "y": 0, "theta": 0 }
+        }      
+    ],
+
+    "invisibles": [
+        {
+            "definition": "defs/particleswarm.json",
+            "rendered": false
+        } 
+    ],
+
+    "statics": [
+        {
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": -350, "y": -200 },
+                { "x": -350,  "y": 200 },
+                { "x": -340,  "y": 200 },
+                { "x": -340, "y": -200 }
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": 350, "y": -200 },
+                { "x": 350,  "y": 200 },
+                { "x": 340,  "y": 200 },
+                { "x": 340, "y": -200 }
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": -350, "y": 200 },
+                { "x": 350,  "y": 200 },
+                { "x": 350,  "y": 190 },
+                { "x": -350, "y": 190 }
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": -350, "y": -200 },
+                { "x": 350,  "y": -200 },
+                { "x": 350,  "y": -190 },
+                { "x": -350, "y": -190 }
+            ]
+        }
+
+    ]
+
+}

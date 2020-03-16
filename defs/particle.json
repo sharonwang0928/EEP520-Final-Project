@@ -1,0 +1,19 @@
+{
+    "name": "Particle",
+    "type": "noninteractive",
+    "description": "Particle",
+    "shape": [
+      { "x": -5, "y": 2 },
+      { "x": 5, "y": 0 },
+      { "x": -5, "y": -2 }
+    ],
+    "friction": {
+      "collision": 0,
+      "linear": 10,
+      "rotational": 20
+    },
+    "radius": 2,
+    "sensors": [], 
+    "mass": 0.5,
+    "controller": "lib/particle.so"
+}
